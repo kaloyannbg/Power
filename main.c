@@ -2,13 +2,15 @@
 
 int main(void) {
 
-    int choice;
+    int choice = 0;
 
-    double base; //the base
+    double base = 0; //the base
 
-    int exp; //the exponent
+    int exp = 0; //the exponent
 
-    double power; //the power
+    double power = 0.0; //the power
+    
+    int i = 0;
 
     do {
 
@@ -17,8 +19,6 @@ int main(void) {
         exp = 0;
 
         power = 1;
-
-        int i;
 
         printf("\n\n -- Enter 1 to find power of number");
         printf("\n -- Enter 0 for quit from program");
@@ -49,7 +49,8 @@ int main(void) {
 
         } else if(choice == 0) {
             printf("\n\n -- Bye Bye! --");
-        } else {
+        } 
+        else {
             printf("\n\n -- Invalid Choice --");
         }
 

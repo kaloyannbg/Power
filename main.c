@@ -8,7 +8,7 @@ int main(void) {
 
     int exp = 0; //the exponent
 
-    double power = 0.0; //the power
+    double power = 1; //the power
     
     int i = 0;
 

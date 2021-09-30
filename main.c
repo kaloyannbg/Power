@@ -9,7 +9,7 @@ int main(void) {
     int exp = 0; //the exponent
 
     double power = 1; //the power
-    
+
     int i = 0;
 
     do {
@@ -34,8 +34,8 @@ int main(void) {
             printf("\n -- Enter the exponent: ");
             scanf("%d", &exp);
 
-            if( base < 1 || exp < 1) {
-                printf("the base or exponent is < 1");
+            if( base < 0 || exp < 0) {
+                printf("the base or exponent is < 0");
             } else {
 
                 for(i = 0; i < exp; i++) {
@@ -46,10 +46,9 @@ int main(void) {
 
             }
 
-
         } else if(choice == 0) {
             printf("\n\n -- Bye Bye! --");
-        } 
+        }
         else {
             printf("\n\n -- Invalid Choice --");
         }
